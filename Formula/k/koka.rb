@@ -25,7 +25,7 @@ class Koka < Formula
   end
 
   depends_on "cabal-install" => :build
-  depends_on "ghc@9.6" => :build
+  depends_on "ghc@9.4" => :build
   depends_on "pcre2" => :build
 
   def install
