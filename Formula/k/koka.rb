@@ -2,8 +2,8 @@ class Koka < Formula
   desc "Compiler for the Koka language"
   homepage "http://koka-lang.org"
   url "https://github.com/koka-lang/koka.git",
-    tag:      "v2.4.2",
-    revision: "0649baaa2a4509c0a5adb743b6f2b5f1ef32a5a9"
+    tag:      "v3.1.1",
+    revision: "1745665e11be52128a7814e826035ceabd89750c"
   license "Apache-2.0"
   head "https://github.com/koka-lang/koka.git", branch: "master"
 
@@ -25,7 +25,7 @@ class Koka < Formula
   end
 
   depends_on "cabal-install" => :build
-  depends_on "ghc@9.4" => :build
+  depends_on "ghc@9.6" => :build
   depends_on "pcre2" => :build
 
   def install
