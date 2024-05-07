@@ -3,8 +3,8 @@ require "language/node"
 class VscodeLangserversExtracted < Formula
   desc "Language servers for HTML, CSS, JavaScript, and JSON extracted from vscode"
   homepage "https://github.com/hrsh7th/vscode-langservers-extracted"
-  url "https://registry.npmjs.org/vscode-langservers-extracted/-/vscode-langservers-extracted-4.8.0.tgz"
-  sha256 "8c7102927a32fa145077f0406b66bb3a7d85f5b0a208d4efeb40702b5a6cd2e1"
+  url "https://registry.npmjs.org/vscode-langservers-extracted/-/vscode-langservers-extracted-4.9.0.tgz"
+  sha256 "cf53cd3ff8cdcad6968111274b46cc1e5ad5d608e3f667554f10ef8bd19f1819"
   license "MIT"
 
   bottle do
