@@ -7,7 +7,7 @@ class Pound < Formula
 
   depends_on "openssl@3"
   depends_on "pcre"
-  depends_on "gperftools" => :recommended
+  depends_on "gperftools"
 
   def install
     system "./configure", "--prefix=#{prefix}"
