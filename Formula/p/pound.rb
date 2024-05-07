@@ -3,6 +3,7 @@ class Pound < Formula
   homepage "https://github.com/graygnuorg/pound"
   url "https://github.com/graygnuorg/pound/releases/download/v4.12/pound-4.12.tar.gz"
   sha256 "3276463b3faacfa5c7f16daac2c3d7f9d5946b4505c12923c32e017b7229a1f2"
+  license "GPLv3"
 
   depends_on "openssl"
   depends_on "pcre"
