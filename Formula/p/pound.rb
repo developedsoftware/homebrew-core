@@ -6,8 +6,8 @@ class Pound < Formula
   license "GPL-3.0-or-later"
 
   depends_on "openssl@3"
-  depends_on "pcre"
   depends_on "gperftools"
+  depends_on "pcre"
 
   def install
     system "./configure", "--prefix=#{prefix}"
