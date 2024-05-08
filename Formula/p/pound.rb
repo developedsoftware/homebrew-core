@@ -22,7 +22,7 @@ class Pound < Formula
         Address 1.2.3.4
         Port    80
         Service
-          HeadRequire "Host: .*www.server0.com.*"
+          Host "www.server0.com"
           BackEnd
             Address 192.168.0.10
             Port    80
