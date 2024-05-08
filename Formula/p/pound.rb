@@ -5,8 +5,8 @@ class Pound < Formula
   sha256 "3276463b3faacfa5c7f16daac2c3d7f9d5946b4505c12923c32e017b7229a1f2"
   license "GPL-3.0-or-later"
 
-  depends_on "openssl@3"
   depends_on "gperftools"
+  depends_on "openssl@3"
   depends_on "pcre"
 
   def install
