@@ -9,6 +9,8 @@ class Pound < Formula
   depends_on "openssl@3"
   depends_on "pcre"
 
+  uses_from_macos "libxcrypt"
+
   def install
     system "./configure", *std_configure_args
     system "make", "install"
