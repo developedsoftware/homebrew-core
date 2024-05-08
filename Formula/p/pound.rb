@@ -10,7 +10,7 @@ class Pound < Formula
   depends_on "pcre"
 
   def install
-    system "./configure", "--prefix=#{prefix}"
+    system "./configure", *std_configure_args
     system "make", "install"
   end
 
